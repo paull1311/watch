@@ -12,72 +12,104 @@ public class ProductFactory {
     public static Product getProduct1() {
         return new Product(
                 1,
-                "iPhone 6",
-                BigDecimal.valueOf(650),
-                Color.BLACK,
-                64,
-                "4,7 inch",
-                null
+                "Garmin Fenix 3 HR",
+                BigDecimal.valueOf(514),
+                Color.GRAY,
+                32,
+                "1,2 inch",
+                null,
+                "1.jpg"
         );
     }
 
     public static Product getProduct2() {
         return new Product(
                 2,
-                "iPhone 7",
-                BigDecimal.valueOf(700),
-                Color.WHITE,
-                128,
-                "4,7 inch",
-                null
+                "Garmin Fenix 5X",
+                BigDecimal.valueOf(964),
+                Color.GRAY,
+                12288,
+                "1,2 inch",
+                null,
+                "2.jpg"
         );
     }
 
     public static Product getProduct3() {
         return new Product(
                 3,
-                "iPhone 8",
-                BigDecimal.valueOf(750),
-                Color.GRAY,
-                256,
-                "4,7 inch",
-                null
+                "Smart Watch Finow X5",
+                BigDecimal.valueOf(175),
+                Color.BLACK,
+                6144,
+                "1,39 inch",
+                null,
+                "3.jpg"
         );
     }
 
     public static Product getProduct4() {
         return new Product(
                 4,
-                "iPhone 6 Plus",
-                BigDecimal.valueOf(700),
-                Color.BLACK,
-                256,
-                "5,5 inch",
-                null
+                "Asus Zen Watch 2",
+                BigDecimal.valueOf(174),
+                Color.GRAY,
+                4096,
+                "1,63 inch",
+                null,
+                "4.jpg"
         );
     }
 
     public static Product getProduct5() {
         return new Product(
                 5,
-                "iPhone 7 Plus",
-                BigDecimal.valueOf(800),
-                Color.GRAY,
+                "Atrix Smart Watch E10",
+                BigDecimal.valueOf(87),
+                Color.BLACK,
                 64,
-                "5,5 inch",
-                null
+                "1,22 inch",
+                null,
+                "5.jpg"
         );
     }
 
     public static Product getProduct6() {
         return new Product(
                 6,
-                "iPhone 8 Plus",
-                BigDecimal.valueOf(900),
+                "Garmin Fenix 5S",
+                BigDecimal.valueOf(750),
+                Color.BLACK,
+                64,
+                "1,1 inch",
+                null,
+                "6.jpg"
+        );
+    }
+
+    public static Product getProduct7() {
+        return new Product(
+                7,
+                "Garmin Fenix 5SW",
+                BigDecimal.valueOf(643),
                 Color.WHITE,
-                128,
-                "5,5 inch",
-                null
+                64,
+                "1,1 inch",
+                null,
+                "7.jpg"
+        );
+    }
+
+    public static Product getProduct8() {
+        return new Product(
+                8,
+                "Garmin Fenix 3 Performer",
+                BigDecimal.valueOf(621),
+                Color.BLACK,
+                32,
+                "1,2 inch",
+                null,
+                "8.jpg"
         );
     }
 
@@ -88,31 +120,35 @@ public class ProductFactory {
                 getProduct3(),
                 getProduct4(),
                 getProduct5(),
-                getProduct6()
+                getProduct6(),
+                getProduct7(),
+                getProduct8()
         );
     }
 
     public static Product newProduct() {
         return new Product(
                 null,
-                "iPhone 8",
-                BigDecimal.valueOf(900),
-                Color.WHITE,
-                512,
-                "6,0 inch",
-                null
+                "Garmin Fenix 3 HR",
+                BigDecimal.valueOf(514),
+                Color.GRAY,
+                32,
+                "1,2 inch",
+                null,
+                "1.jpg"
         );
     }
 
     public static Product getProduct2Updated() {
         return new Product(
                 2,
-                "iPhone 8",
-                BigDecimal.valueOf(900),
-                Color.BLACK,
-                512,
-                "6,0 inch",
-                null
+                "Garmin Fenix 5X",
+                BigDecimal.valueOf(964),
+                Color.GRAY,
+                12228,
+                "1,2 inch",
+                null,
+                "2.jpg"
         );
     }
 }

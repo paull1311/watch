@@ -15,8 +15,8 @@ public class CommentFactory {
                 1,
                 new Product(1),
                 "Сергей",
-                LocalDateTime.of(2016, Month.DECEMBER, 28, 13, 0),
-                "Отличный девайс. Пользуюсь уже около года. Никаких замечаний",
+                LocalDateTime.of(2017, Month.SEPTEMBER, 8, 13, 0),
+                "Отличный девайс.",
                 5
         );
     }
@@ -24,10 +24,10 @@ public class CommentFactory {
     public static Comment getComment2() {
         return new Comment(
                 2,
-                new Product(4),
+                new Product(2),
                 "Анна",
-                LocalDateTime.of(2017, Month.MARCH, 12, 15, 0),
-                "Возникли проблемы на второй месяц использования. Пропадает зук в динамиках",
+                LocalDateTime.of(2017, Month.AUGUST, 14, 15, 0),
+                "Возьму кредит - обязательно куплю",
                 3
         );
     }
@@ -36,9 +36,9 @@ public class CommentFactory {
         return new Comment(
                 3,
                 new Product(1),
-                "Инна",
+                "Клавдия Петровна",
                 LocalDateTime.of(2017, Month.APRIL, 5, 10, 30),
-                "Хоший телефон. Единственный недостаток это цена :(",
+                "Хошие часы. Но батарея слабо держит :(",
                 4
         );
     }

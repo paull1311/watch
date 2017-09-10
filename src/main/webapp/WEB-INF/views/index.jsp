@@ -10,7 +10,7 @@
         <div class="col-12">
             <h1 class="text-center">Добро пожаловать в магазин My Watch</h1>
         </div>
-        <div class="col-12 col-sm-8">
+        <div class="col-12 col-sm-7">
             <img src="/resources/img/watch/watches.jpg" class="img-thumbnail">
         </div>
         <div class="col-12 col-sm-8 ml-sm-auto col-md-6 ml-md-auto col-lg-6 ml-lg-auto">

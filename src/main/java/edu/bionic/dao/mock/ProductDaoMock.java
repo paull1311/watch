@@ -67,7 +67,7 @@ public class ProductDaoMock implements ProductDao {
                 "Garmin Fenix 5X",
                 BigDecimal.valueOf(964),
                 Color.GRAY,
-                12228,
+                12288,
                 "1,2 inch",
                 null,
                 "2.jpg"

@@ -14,13 +14,13 @@ public class OrderFactory {
     public static Order getOrder1() {
         return new Order(
                 1,
-                LocalDateTime.of(2017, Month.JUNE, 1, 14, 0),
+                LocalDateTime.of(2017, Month.AUGUST, 1, 19, 0),
                 BigDecimal.valueOf(1500),
                 Lists.newArrayList(ProductFactory.getProduct1(), ProductFactory.getProduct5()),
-                "Олег",
-                "oleg@gmail.com",
-                "095664356273",
-                "ул. Дорогожицкая, 1",
+                "Оля",
+                "olya@gmail.com",
+                "0955213565",
+                "ул. Крещатик, 26",
                 UserFactory.getUser()
         );
     }
@@ -28,13 +28,13 @@ public class OrderFactory {
     public static Order getOrder2() {
         return new Order(
                 2,
-                LocalDateTime.of(2017, Month.JULY, 23, 18, 0),
+                LocalDateTime.of(2017, Month.AUGUST, 23, 21, 0),
                 BigDecimal.valueOf(2200),
                 Lists.newArrayList(ProductFactory.getProduct2(), ProductFactory.getProduct3(),  ProductFactory.getProduct6()),
                 "Аня",
                 "anya@gmail.com",
-                "095664357685",
-                "ул. Артема, 30",
+                "0953215646",
+                "ул. Артема, 60",
                 null
         );
     }
