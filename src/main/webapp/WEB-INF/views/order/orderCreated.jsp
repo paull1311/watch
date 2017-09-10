@@ -13,7 +13,7 @@
             <h1 class="text-center">Заказ успешно сохранен</h1>
 
             <div class="alert alert-success mt-5">
-                Менеджеры свяжуться с вами в ближайшее время.
+                Менеджеры свяжутся с вами в ближайшее время.
             </div>
 
             <div class="text-center text-sm-left mt-5">

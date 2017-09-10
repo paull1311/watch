@@ -12,7 +12,7 @@
         <div class="col-12 text-center text-sm-left mt-5">
             <a href="<c:url value="/products"/>" class=" btn btn-light">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            Вернться к покупкам
+            Вернуться к покупкам
             </a>
         </div>
 

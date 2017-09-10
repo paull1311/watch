@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </c:if>
-            <h1 class="text-center">Каталог товаров iShop</h1>
+            <h1 class="text-center">Каталог товаров My Watch</h1>
             <div class="row mt-1">
                 <div class="col-12 col-sm-3 col-md-4 col-lg-4">
                     <form>
@@ -84,7 +84,7 @@
                             <%--<li><c:out value="${product.printInfo()}"/></li>--%>
                             <div class="col-xs-6 col-sm-4">
                                 <a href="<c:url value="products/${product.id}"/>" class="product">
-                                    <img src="/resources/img/product-placeholder.jpg" class="img-thumbnail">
+                                    <img src="/resources/img/watch/${product.image}" class="img-thumbnail">
                                     <span class="info">${product.printInfo()}</span>
                                 </a>
                             </div>

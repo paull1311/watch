@@ -37,7 +37,7 @@
 
             <div id="product" class="row">
                 <div class="col-12 col-sm-4">
-                    <img src="/resources/img/product-placeholder.jpg" class="img-thumbnail">
+                    <img src="/resources/img/watch/${product.image}" class="img-thumbnail">
                 </div>
                 <div class="col-12 col-sm-8">
                     <h1 class="text-center text-sm-left">${product.name}</h1>

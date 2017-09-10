@@ -37,7 +37,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-6">
                         <div class="form-group">
-                            <label for="capacity">Память, GB</label>
+                            <label for="capacity">Память, MB</label>
                             <form:input path="capacity" class="form-control"/>
                             <form:errors path="capacity" class="text-danger"/>
                         </div>
